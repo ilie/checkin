@@ -1,0 +1,4 @@
+SetEnv PHPRC /home/virgi824/public_html/checkin/php.ini
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
