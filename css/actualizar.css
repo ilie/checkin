@@ -1,0 +1,254 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+
+
+/*----------------------------------------------------------------------------------------
+-----------Body-----------------------------------------------------------------------------*/
+body{
+    margin:0px;
+    padding-top:5px;
+	width:100%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 110px;
+	}
+	
+/*----------------------------------------------------------------------------------------
+-----------Header-----------------------------------------------------------------------------*/
+header {
+    width:100%;
+    margin-top:5px;
+    height: 200px;
+	background-color:#FFFFFF;
+}
+
+#logo_cabecera {
+	margin-left:30px;
+	padding-top:5px;
+	width:374px;
+	display:block;
+	float:left;
+	height: 133px;
+	}
+
+#tabla_cabecera {
+	float:right;
+	height: 135px;
+	width:374px;
+	}
+	
+#usuario_cabecera, 	#cerrar_sesion_cabecera, #logout {
+	font-size:14px;
+	padding-top: 100px;
+	}
+	
+#usuario_cabecera {
+	color: #1f114e;
+	text-align:right;
+	}
+	
+#cerrar_sesion_cabecera{
+	text-align:center;
+	}
+	
+#logout{ 
+	text-align:left;
+	}
+	
+#logout a {
+	text-decoration:none;
+	color:#8f2552 ;
+	margin-right: 50px ;
+	}
+	
+@media screen and (max-device-width : 480px) {
+
+       #tabla_cabecera{
+	        display:none;
+	        }
+			
+		header img {
+			height:auto;
+			width:75%;
+			padding-top:15px;
+			padding-left: 15px;
+			padding-right: 15px;
+
+	}
+
+}	
+
+/*----------------------------------------------------------------------------------------
+-----------Menu-----------------------------------------------------------------------------*/
+.top_menu ul {
+    list-style:none;
+    float:right;
+    padding: 1%;
+    width:100%;
+	background-color:#8f2552;
+}
+
+.top_menu ul li
+{
+    float:right;
+    margin-right:50px;
+    margin-bottom:10px;
+	}
+	
+.top_menu ul li a	{
+	font-size:28px;
+    color: #FFFFFF;
+    text-decoration:none;
+	
+	transition:font-size 1s;
+	
+	}
+	
+.top_menu ul li a:hover	{
+	font-size:30px;
+    color: #CCC;
+	}
+
+
+/*----------------------------------------------------------------------------------------
+-----------Contenido-----------------------------------------------------------------------------*/
+
+/*---------------------------------
+-----------Mensaje Borrado---------------*/
+.alert {
+    padding: 30px;
+    background-color: #f44336;
+    color: black;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 0px;
+}
+
+.alert.success {background-color: #ccebbe;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ede8bf;}
+
+.closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: white;
+}
+
+section { 
+    width:95%;
+    margin-top:2px;
+    margin-left:2%;
+	margin-left:2%;
+    padding-bottom:50px;
+    background:#ffffff;
+    height: auto;
+    float:left;
+	}
+	
+section article {
+    padding: 15px;
+	}
+section article h1 {
+	text-align:center;
+	}
+
+/* Formulario Actualizar
+  ========================================================================== */
+
+thead {
+	color:white;
+	background-color:#1f114e;
+	padding:8px;
+	font-size: 20px;}
+	
+tbody {
+	color:black;
+	text-align:center;
+	padding: 12px;
+	font-size:16px;}
+
+
+
+h1 {
+
+	color:#211452;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+		
+#modify_details, #modify_details_empresa {
+	width: 500px;
+    padding: 5px 40px 5px 40px; 
+	text-align:center;
+	font-size:18px;
+	background-color: #831a4b;
+	color:#FFF;
+	}		
+
+#primera_columna {
+	width: 150px;
+	
+}
+
+
+#afiliacion, #nif, #pin, #horas, #correo_electronico, #nom, #afiliacion, #cif, #address, #country, #cp, #tel, #email, #nom_empresa,  {
+	width: 450px;
+	
+}
+
+
+table tr td, input {
+	text-align:left;
+	font-size:22px;
+	padding:3px;}
+
+
+	
+	
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+
+/*----------------------------------------------------------------------------------------
+-----------Footer-----------------------------------------------------------------------------*/
+footer {
+    clear: both;
+    position: absolute;
+ 	bottom: 0;
+  	width: 100%;
+	height: 110px;
+    margin: 0 auto; 
+    background:#8f8f8f;
+	}
+	
+.footer_msg {
+	margin-top: 40px;
+	float: left;
+	margin-left: 5%;
+	font-size: 12px;
+	color: #FFF;
+	}
+	
+.footer_msg a {
+	text-decoration:none;
+	font-size: 12px;
+	color: #FFF;
+}

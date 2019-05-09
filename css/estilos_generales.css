@@ -1,0 +1,266 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+
+
+/*----------------------------------------------------------------------------------------
+-----------Body-----------------------------------------------------------------------------*/
+body{
+    margin:0px;
+    padding-top:5px;
+	width:100%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 110px;
+	}
+	
+/*----------------------------------------------------------------------------------------
+-----------Header-----------------------------------------------------------------------------*/
+header {
+    width:100%;
+    margin-top:5px;
+    height: 200px;
+	background-color:#FFFFFF;
+}
+
+#logo_cabecera {
+	margin-left:30px;
+	padding-top:5px;
+	width:374px;
+	display:block;
+	float:left;
+	height: 133px;
+	}
+
+#tabla_cabecera {
+	float:right;
+	height: 135px;
+	width:374px;
+	}
+	
+#usuario_cabecera, 	#cerrar_sesion_cabecera, #logout {
+	font-size:14px;
+	padding-top: 100px;
+	}
+	
+#usuario_cabecera {
+	color: #1f114e;
+	text-align:right;
+	}
+	
+#cerrar_sesion_cabecera{
+	text-align:center;
+	}
+	
+#logout{ 
+	text-align:left;
+	}
+	
+#logout a {
+	text-decoration:none;
+	color:#8f2552 ;
+	margin-right: 50px ;
+	}
+	
+@media screen and (max-device-width : 480px) {
+
+       #tabla_cabecera{
+	        display:none;
+	        }
+			
+		header img {
+			height:auto;
+			width:75%;
+			padding-top:15px;
+			padding-left: 15px;
+			padding-right: 15px;
+
+	}
+
+}	
+
+/*----------------------------------------------------------------------------------------
+-----------Menu-----------------------------------------------------------------------------*/
+.top_menu ul {
+    list-style:none;
+    float:right;
+    padding: 1%;
+    width:100%;
+	background-color:#8f2552;
+}
+
+.top_menu ul li
+{
+    float:right;
+    margin-right:50px;
+    margin-bottom:10px;
+	}
+	
+.top_menu ul li a	{
+	font-size:28px;
+    color: #FFFFFF;
+    text-decoration:none;
+	
+	transition:font-size 1s;
+	
+	}
+	
+.top_menu ul li a:hover	{
+	font-size:30px;
+    color: #CCC;
+	}
+
+
+/*----------------------------------------------------------------------------------------
+-----------Contenido-----------------------------------------------------------------------------*/
+h1 {
+
+	color:#211452;
+	text-align:center;
+	padding-top:20px;
+	margin-bottom: 0px;
+	}
+
+
+.button {
+	float:right;
+    background-color: #e5b15e;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 2px 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+} 
+ 
+.button a, .button a:hover { text-decoration:none;
+color: white;}  
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/*---------------------------------
+-----------Mensajes Borrado/Actualización---------------*/
+.alert {
+    padding: 30px;
+    background-color: #f44336;
+    color: black;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 0px;
+}
+
+.alert.success {background-color: #ccebbe;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ede8bf;}
+
+.closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: white;
+}
+
+section { 
+
+    width:95%;
+    margin-top:2px;
+    margin-left:2%;
+	margin-left:2%;
+	margin-bottom: 20px;
+    padding-bottom:50px;
+    background:#ffffff;
+
+    float:left;
+	}
+	
+section article {
+    padding: 15px;
+	}
+section article h1 {
+	text-align:center;
+	}
+
+/*------------------------------------
+-----------Tabla ---------------------*/
+
+thead {
+	color:white;
+	background-color:#1f114e;
+	padding:8px;
+	font-size: 20px;}
+	
+tfoot  {
+	color:white;
+	background-color:#8f2552;
+	padding:8px;
+	font-size: 10px;}
+	
+
+	
+
+
+/* Formulario Actualizar
+  ========================================================================== */
+
+		
+#modify_details {
+	border: 2px solid #831a4b;
+    padding: 5px 40px; 
+	border-radius: 5px;
+	text-align:center;
+	font-size:18px;
+	background-color: #831a4b;
+	color:#FFF;
+	}
+table {
+	border:1px solid #666:}	
+	
+table tr td, input {
+	text-align:left;
+	font-size:22px;
+	padding:3px;}
+	
+
+/*----------------------------------------------------------------------------------------
+-----------Footer-----------------------------------------------------------------------------*/
+footer {
+   clear: both;
+    position: relative;
+ 	bottom: 0;
+  	width: 100%;
+	height: 110px;
+    margin: 0 auto; 
+    background:#8f8f8f;
+	}
+	
+.footer_msg {
+	margin-top: 40px;
+	float: left;
+	margin-left: 5%;
+	font-size: 12px;
+	color: #FFF;
+	}
+	
+.footer_msg a {
+	text-decoration:none;
+	font-size: 12px;
+	color: #FFF;
+	
+	}
